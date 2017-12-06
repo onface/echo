@@ -28,6 +28,8 @@
     "json-format": "^1.0.1",
     "json5": "^0.5.1",
     "lowdb": "^1.0.0",
+    "markrun": "^0.23.0",
+    "markrun-themes": "^0.1.11",
     "mockjs": "^1.0.1-beta3",
     "request": "^2.83.0",
     "shamjs": "^0.8.0"
