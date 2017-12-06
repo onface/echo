@@ -81,3 +81,21 @@ echo-mock will use the cache by default, you can use $clear clear cache.
 ## $delay
 
 [https://github.com/onface/echo/blob/mock/list?$delay=1000](https://github.com/onface/echo/blob/mock/list?$delay=1000)
+
+
+## Create your own server
+
+```js
+var express = require('express')
+var request = require('request')
+var echoMock = require('echo-mock')
+var app = express()
+app.use(echoMock({
+    dbFile: __dirname + '/db.json'
+}))
+var port = 3000
+app.listen(port, function () {
+    console.log('http://127.0.0.1:' + port)
+})
+app.use('/', echoMock.index)
+```
