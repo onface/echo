@@ -1,6 +1,7 @@
 {
     'data|122': [
         {
+            id: '@id',
             name: '@name',
             'idol|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,
             'age|18-99': 99,
