@@ -1,0 +1,11 @@
+{
+    'data|122': [
+        {
+            name: '@name',
+            'idol|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,
+            'age|18-99': 99,
+            website: '@domain',
+            'gender|1': ['man', 'woman']
+        }
+    ]
+}
