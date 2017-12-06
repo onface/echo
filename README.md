@@ -27,4 +27,4 @@
 
 echo-mock will use the cache by default, you can use $clear clear cache.
 
-[https://echo.onface.cc/onface/echo/mock/list?$clear](https://echo.onface.cc/onface/echo/mock/list?$clear)
+[https://echo.onface.cc/onface/echo/mock/list?$clear=true](https://echo.onface.cc/onface/echo/mock/list?$clear=true)
