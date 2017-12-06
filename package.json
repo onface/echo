@@ -24,11 +24,15 @@
   },
   "homepage": "https://github.com/onface/echo-mock#readme",
   "dependencies": {
-    "express": "^4.16.2",
+    "extend": "^3.0.1",
     "json-format": "^1.0.1",
     "json5": "^0.5.1",
     "lowdb": "^1.0.0",
     "mockjs": "^1.0.1-beta3",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "shamjs": "^0.8.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.2"
   }
 }
