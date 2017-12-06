@@ -1,6 +1,6 @@
 {
   "name": "echo-mock",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "echo mock data, support query. || https://echo.onface.cc/",
   "main": "lib/index",
   "scripts": {
