@@ -1,7 +1,7 @@
 {
   "name": "echo-mock",
-  "version": "0.2.0",
-  "description": "echo mock data, support query.",
+  "version": "0.3.0",
+  "description": "echo mock data, support query. || https://echo.onface.cc/",
   "main": "lib/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/onface/echo-mock#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "extend": "^3.0.1",
     "json-format": "^1.0.1",
     "json5": "^0.5.1",

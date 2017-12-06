@@ -2,6 +2,9 @@
 
 > echo mock data, support query. use github code.
 
+Source: https://github.com/onface/echo/tree/mock/pass
+Online: https://echo.onface.cc/onface/echo/mock/pass
+
 ## pass
 
 https://echo.onface.cc/onface/echo/mock/pass
@@ -87,7 +90,6 @@ echo-mock will use the cache by default, you can use $clear clear cache.
 
 ```js
 var express = require('express')
-var request = require('request')
 var echoMock = require('echo-mock')
 var app = express()
 app.use(echoMock({
@@ -97,5 +99,4 @@ var port = 3000
 app.listen(port, function () {
     console.log('http://127.0.0.1:' + port)
 })
-app.use('/', echoMock.index)
 ```
