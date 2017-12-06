@@ -1,0 +1,26 @@
+{
+  "name": "echo-mock",
+  "version": "0.2.0",
+  "description": "echo mock data, support query.",
+  "main": "lib/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onface/echo-mock.git"
+  },
+  "keywords": [
+    "echo",
+    "mock",
+    "echo-mock",
+    "support",
+    "query"
+  ],
+  "author": "NimoChu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onface/echo-mock/issues"
+  },
+  "homepage": "https://github.com/onface/echo-mock#readme"
+}
