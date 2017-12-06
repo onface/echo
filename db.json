@@ -1,0 +1,16 @@
+{
+  "cache": [
+    {
+      "path": "/onface/echo/mock/list",
+      "content": "{\n    'data|122': [\n        {\n            name: '@name',\n            'idol|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,\n            'age|18-99': 99,\n            website: '@domain',\n            'gender|1': ['man', 'woman']\n        }\n    ]\n}\n"
+    },
+    {
+      "path": "/onface/echo/mock/lists",
+      "content": "404: Not Found\n"
+    },
+    {
+      "path": "/onface/echo/mock/listS",
+      "content": "404: Not Found\n"
+    }
+  ]
+}
