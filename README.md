@@ -49,7 +49,7 @@ http://echo.onface.cc/onface/echo/mock/html
 
 ## poem
 
-http://echo.onface.cc/onface/echo/mock/fail
+http://echo.onface.cc/onface/echo/mock/poem
 
 ```
 红豆生南国，春来发几枝。
