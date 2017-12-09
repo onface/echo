@@ -4,7 +4,7 @@
             'id|+1': 1000,
             name: '@name',
             'idol|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,
-            'age|18-99': 99,
+            'cash|+1': 2000,
             website: '@domain',
             'gender|1': ['man', 'woman']
         }
