@@ -1,5 +1,5 @@
 var express = require('express')
-var echoMock = require('echo-mock')
+var echoMock = require('./lib/index')
 var app = express()
 app.use(echoMock({
     dbFile: __dirname + '/db.json'
