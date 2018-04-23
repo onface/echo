@@ -6,7 +6,7 @@
             'idol|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,
             'cash|+1': 1,
             website: '@domain',
-            'gender|1': ['man', 'woman']
+            'gender|1': ['male', 'female']
         }
     ]
 }
