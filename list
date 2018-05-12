@@ -3,7 +3,7 @@
         {
             'id|+1': 1000,
             name: '@name',
-            'idol|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,
+            'dad|1': ['nimo', 'nico', 'tim', 'jean', 'jack', 'bob'] ,
             'cash|+1': 1,
             website: '@domain',
             'gender|1': ['male', 'female']
