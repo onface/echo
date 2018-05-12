@@ -3,11 +3,11 @@
 > echo mock data, support query. use github code.
 
 Source: http://github.com/onface/echo/tree/mock/pass
-Online: http://echo.onface.cc/onface/echo/mock/pass
+Online: http://echo.onface.live/onface/echo/mock/pass
 
 ## pass
 
-http://echo.onface.cc/onface/echo/mock/pass
+http://echo.onface.live/onface/echo/mock/pass
 
 ```json
 {
@@ -17,7 +17,7 @@ http://echo.onface.cc/onface/echo/mock/pass
 
 ## fail
 
-http://echo.onface.cc/onface/echo/mock/fail
+http://echo.onface.live/onface/echo/mock/fail
 
 
 ```json
@@ -29,13 +29,13 @@ http://echo.onface.cc/onface/echo/mock/fail
 
 ## other project
 
-1. http://echo.onface.cc/vuejs/vue/dev/package.json
-2. http://echo.onface.cc/facebook/react/master/package.json
+1. http://echo.onface.live/vuejs/vue/dev/package.json
+2. http://echo.onface.live/facebook/react/master/package.json
 
 
 ## html
 
-http://echo.onface.cc/onface/echo/mock/html
+http://echo.onface.live/onface/echo/mock/html
 
 ```html
 <section class="intro" id="zen-intro">
@@ -49,7 +49,7 @@ http://echo.onface.cc/onface/echo/mock/html
 
 ## poem
 
-http://echo.onface.cc/onface/echo/mock/poem
+http://echo.onface.live/onface/echo/mock/poem
 
 ```
 红豆生南国，春来发几枝。
@@ -66,24 +66,24 @@ http://echo.onface.cc/onface/echo/mock/poem
 
 | Action | URL | Project | Branch | Path | Query |
 | :---- | :------------- | :------------- | :------------- | :------------- | :--------------|
-| All data | http://echo.onface.cc/onface/echo/mock/list       | `onface/echo`       | `mock`       |  `list`       | ``|
-| Second page | http://echo.onface.cc/onface/echo/mock/list?page=2       | `onface/echo`       | `mock`       |  `list`       | `?page=2` |
-| Big page | http://echo.onface.cc/onface/echo/mock/list?page=9999       | `onface/echo`       | `mock`       |  `list`       | `?page=999` |
-| Query | http://echo.onface.cc/onface/echo/mock/list?idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?idol=nimo` |
-| Query second page | http://echo.onface.cc/onface/echo/mock/list?page=2&idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?page=2&idol=nimo` |
+| All data | http://echo.onface.live/onface/echo/mock/list       | `onface/echo`       | `mock`       |  `list`       | ``|
+| Second page | http://echo.onface.live/onface/echo/mock/list?page=2       | `onface/echo`       | `mock`       |  `list`       | `?page=2` |
+| Big page | http://echo.onface.live/onface/echo/mock/list?page=9999       | `onface/echo`       | `mock`       |  `list`       | `?page=999` |
+| Query | http://echo.onface.live/onface/echo/mock/list?idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?idol=nimo` |
+| Query second page | http://echo.onface.live/onface/echo/mock/list?page=2&idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?page=2&idol=nimo` |
 
 
 ## $clear
 
 echo-mock will use the cache by default, you can use $clear clear cache.
 
-[http://echo.onface.cc/onface/echo/mock/list?$clear](http://echo.onface.cc/onface/echo/mock/list?$clear)
+[http://echo.onface.live/onface/echo/mock/list?$clear](http://echo.onface.live/onface/echo/mock/list?$clear)
 
 > success! /onface/echo/mock/list
 
 ## $delay
 
-[http://echo.onface.cc/onface/echo/mock/list?$delay=1000](http://echo.onface.cc/onface/echo/mock/list?$delay=1000)
+[http://echo.onface.live/onface/echo/mock/list?$delay=1000](http://echo.onface.live/onface/echo/mock/list?$delay=1000)
 
 
 
