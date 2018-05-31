@@ -1,0 +1,25 @@
+{
+    "status": "pass",
+    "data": {
+        "username": "nimo",
+        "age": 26,
+        "domains": [
+            "https://onface.live",
+            "http://onface.github.io"
+        ],
+        "projects": [
+            {
+                "name": "echo",
+                "url": "https://github.com/onface/echo.onface.live"
+            },
+            {
+                "name": "better-api",
+                "url": "https://github.com/onface/better-api"
+            }
+        ],
+        "currentProject": {
+            "name": "echo",
+            "url": "https://github.com/onface/echo.onface.live"
+        }
+    }
+}
