@@ -1,5 +1,5 @@
 {
-    "status": "success",
+    "status": "pass",
     "id": "@id",
     "src": "https://picsum.photos/200/300/?random",
     "filename": "@word.jpg",
