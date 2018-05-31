@@ -2,6 +2,7 @@
     "status": "pass",
     "data": {
         "username": "nimo",
+        "nikename": "NIMO",
         "age": 26,
         "domains": [
             "https://onface.live",
