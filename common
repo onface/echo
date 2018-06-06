@@ -1,0 +1,12 @@
+{
+    "pass": {
+        "type": "pass"
+    },
+    "fail": {
+        "type": "fail",
+        "msg": "fail message"
+    },
+    "notLogin": {
+        "type": "notLogin"
+    }
+}
