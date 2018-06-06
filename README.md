@@ -2,12 +2,12 @@
 
 > echo mock data, support query. use github code.
 
-Source: http://github.com/onface/echo/tree/mock/pass
-Online: http://echo.onface.live/onface/echo/mock/pass
+Source: http://github.com/onface/echo/tree/mock/common  
+Online: http://echo.onface.live/onface/echo/mock/common?attr=pass
 
 ## pass
 
-http://echo.onface.live/onface/echo/mock/pass
+http://echo.onface.live/onface/echo/mock/common?attr=pass
 
 ```json
 {
@@ -15,9 +15,18 @@ http://echo.onface.live/onface/echo/mock/pass
 }
 ```
 
+```js
+var domain = 'http://echo.onface.live/'
+var account = 'onface'
+var repo = 'echo'
+var branch = 'mock'
+var path = 'common'
+var query = '$attr'
+```
+
 ## fail
 
-http://echo.onface.live/onface/echo/mock/fail
+http://echo.onface.live/onface/echo/mock/common?attr=fail
 
 
 ```json

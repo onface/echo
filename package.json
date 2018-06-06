@@ -27,6 +27,7 @@
     "cors": "^2.8.4",
     "extend": "^3.0.1",
     "json-format": "^1.0.1",
+    "json-modif": "^0.3.0",
     "json5": "^0.5.1",
     "lowdb": "0.17.2",
     "markrun": "^0.23.0",

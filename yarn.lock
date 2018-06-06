@@ -22,6 +22,10 @@ array-flatten@1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/array-flatten/download/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
 
+array-flatten@^2.1.1:
+  version "2.1.1"
+  resolved "http://registry.npm.taobao.org/array-flatten/download/array-flatten-2.1.1.tgz#426bb9da84090c1838d812c8150af20a8331e296"
+
 asn1@~0.2.3:
   version "0.2.3"
   resolved "http://registry.npm.taobao.org/asn1/download/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
@@ -150,6 +154,14 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
+delay-console@^0.4.0:
+  version "0.4.0"
+  resolved "http://registry.npm.taobao.org/delay-console/download/delay-console-0.4.0.tgz#c77e928e29763256781a261d5a419c44a739e845"
+  dependencies:
+    fecha "^2.3.3"
+    json-format "^1.0.1"
+    safe-extend "^3.0.4"
+
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
@@ -223,7 +235,7 @@ express@^4.16.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-extend@^3.0.0, extend@^3.0.1, extend@~3.0.1:
+extend@3.0.1, extend@^3.0.0, extend@^3.0.1, extend@~3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/extend/download/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
@@ -242,6 +254,10 @@ fast-deep-equal@^1.0.0:
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/fast-json-stable-stringify/download/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
+
+fecha@^2.3.3:
+  version "2.3.3"
+  resolved "http://registry.npm.taobao.org/fecha/download/fecha-2.3.3.tgz#948e74157df1a32fd1b12c3a3c3cdcb6ec9d96cd"
 
 finalhandler@1.1.0:
   version "1.1.0"
@@ -369,6 +385,14 @@ jsbn@~0.1.0:
 json-format@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/json-format/download/json-format-1.0.1.tgz#143f67e62af129d6bffed288a46265ea23d0df0c"
+
+json-modif@^0.3.0:
+  version "0.3.0"
+  resolved "http://registry.npm.taobao.org/json-modif/download/json-modif-0.3.0.tgz#f10b3990e7173eb958598c0214669fcb57584181"
+  dependencies:
+    array-flatten "^2.1.1"
+    delay-console "^0.4.0"
+    safe-extend "^3.0.3"
 
 json-schema-traverse@^0.3.0:
   version "0.3.1"
@@ -581,6 +605,12 @@ request@^2.83.0:
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.1:
   version "5.1.1"
   resolved "http://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
+
+safe-extend@^3.0.3, safe-extend@^3.0.4:
+  version "3.0.5"
+  resolved "http://registry.npm.taobao.org/safe-extend/download/safe-extend-3.0.5.tgz#986110b727009bea82c6c38811393d66f4751c8f"
+  dependencies:
+    extend "3.0.1"
 
 send@0.16.1:
   version "0.16.1"
