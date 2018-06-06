@@ -1,7 +1,7 @@
 {
   "name": "echo-mock",
-  "version": "0.4.1",
-  "description": "echo mock data, support query. || https://echo.onface.cc/",
+  "version": "0.4.2",
+  "description": "echo mock data, support query. | https://echo.onface.live/",
   "main": "lib/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
