@@ -1,9 +1,15 @@
 {
-    "status": "pass",
-    "id": "@id",
-    "src": "https://picsum.photos/200/300/?random",
-    "filename": "@word.jpg",
-    "byte": 2341,
-    "width": 200,
-    "height": 200
+    "pass": {
+        "type": "pass",
+        "id": "@id",
+        "src": "https://picsum.photos/200/300/?random",
+        "filename": "@word.jpg",
+        "byte": 2341,
+        "width": 200,
+        "height": 200
+    },
+    "fail": {
+        "type": "fail",
+        "msg": "fail message"
+    }
 }
