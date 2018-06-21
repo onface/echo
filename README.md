@@ -2,12 +2,12 @@
 
 > echo mock data, support query. use github code.
 
-Source: http://github.com/onface/echo/tree/mock/common  
-Online: http://echo.onface.live/onface/echo/mock/common?$attr=pass
+Source: https://github.com/onface/echo/tree/mock/common  
+Online: https://echo.onface.live/onface/echo/mock/common?$attr=pass
 
 ## pass
 
-http://echo.onface.live/onface/echo/mock/common?$attr=pass
+https://echo.onface.live/onface/echo/mock/common?$attr=pass
 
 ```json
 {
@@ -16,7 +16,7 @@ http://echo.onface.live/onface/echo/mock/common?$attr=pass
 ```
 
 ```js
-var domain = 'http://echo.onface.live/'
+var domain = 'https://echo.onface.live/'
 var account = 'onface'
 var repo = 'echo'
 var branch = 'mock'
@@ -26,7 +26,7 @@ var query = '$attr'
 
 ## fail
 
-http://echo.onface.live/onface/echo/mock/common?$attr=fail
+https://echo.onface.live/onface/echo/mock/common?$attr=fail
 
 
 ```json
@@ -38,13 +38,13 @@ http://echo.onface.live/onface/echo/mock/common?$attr=fail
 
 ## other project
 
-1. http://echo.onface.live/vuejs/vue/dev/package.json
-2. http://echo.onface.live/facebook/react/master/package.json
+1. https://echo.onface.live/vuejs/vue/dev/package.json
+2. https://echo.onface.live/facebook/react/master/package.json
 
 
 ## html
 
-http://echo.onface.live/onface/echo/mock/html
+https://echo.onface.live/onface/echo/mock/html
 
 ```html
 <section class="intro" id="zen-intro">
@@ -53,12 +53,12 @@ http://echo.onface.live/onface/echo/mock/html
 	<h2><abbr title="Cascading Style Sheets">CSS</abbr> 设计之美</h2>
 </header>
 ...
-<p>这是一个范例，同时又是一个学习练习。你可以保留图片的完整著作权（有限的例外情况，请参见 <a href="http://www.mezzoblue.com/zengarden/submit/guidelines/">投稿方针</a>），但是我们要求你使用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="查看禅意花园的许可信息。">与本站相同</a>的知识共享授权公开发布你的 <abbr title="Cascading Style Sheets">CSS</abbr> 作品，以便他人可以从中学习。</p>
+<p>这是一个范例，同时又是一个学习练习。你可以保留图片的完整著作权（有限的例外情况，请参见 <a href="https://www.mezzoblue.com/zengarden/submit/guidelines/">投稿方针</a>），但是我们要求你使用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" title="查看禅意花园的许可信息。">与本站相同</a>的知识共享授权公开发布你的 <abbr title="Cascading Style Sheets">CSS</abbr> 作品，以便他人可以从中学习。</p>
 ````
 
 ## poem
 
-http://echo.onface.live/onface/echo/mock/poem
+https://echo.onface.live/onface/echo/mock/poem
 
 ```
 红豆生南国，春来发几枝。
@@ -69,30 +69,30 @@ http://echo.onface.live/onface/echo/mock/poem
 
 **Source data:**
 
-[http://github.com/onface/echo/blob/mock/list](http://github.com/onface/echo/blob/mock/list)
+[https://github.com/onface/echo/blob/mock/list](https://github.com/onface/echo/blob/mock/list)
 
 ** URL:**
 
 | Action | URL | Project | Branch | Path | Query |
 | :---- | :------------- | :------------- | :------------- | :------------- | :--------------|
-| All data | http://echo.onface.live/onface/echo/mock/list       | `onface/echo`       | `mock`       |  `list`       | ``|
-| Second page | http://echo.onface.live/onface/echo/mock/list?page=2       | `onface/echo`       | `mock`       |  `list`       | `?page=2` |
-| Big page | http://echo.onface.live/onface/echo/mock/list?page=9999       | `onface/echo`       | `mock`       |  `list`       | `?page=999` |
-| Query | http://echo.onface.live/onface/echo/mock/list?idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?idol=nimo` |
-| Query second page | http://echo.onface.live/onface/echo/mock/list?page=2&idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?page=2&idol=nimo` |
+| All data | https://echo.onface.live/onface/echo/mock/list       | `onface/echo`       | `mock`       |  `list`       | ``|
+| Second page | https://echo.onface.live/onface/echo/mock/list?page=2       | `onface/echo`       | `mock`       |  `list`       | `?page=2` |
+| Big page | https://echo.onface.live/onface/echo/mock/list?page=9999       | `onface/echo`       | `mock`       |  `list`       | `?page=999` |
+| Query | https://echo.onface.live/onface/echo/mock/list?idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?idol=nimo` |
+| Query second page | https://echo.onface.live/onface/echo/mock/list?page=2&idol=nimo       | `onface/echo`       | `mock`       |  `list`       | `?page=2&idol=nimo` |
 
 
 ## $clear
 
 echo-mock will use the cache by default, you can use $clear clear cache.
 
-[http://echo.onface.live/onface/echo/mock/list?$clear](http://echo.onface.live/onface/echo/mock/list?$clear)
+[https://echo.onface.live/onface/echo/mock/list?$clear](https://echo.onface.live/onface/echo/mock/list?$clear)
 
 > success! /onface/echo/mock/list
 
 ## $delay
 
-[http://echo.onface.live/onface/echo/mock/list?$delay=1000](http://echo.onface.live/onface/echo/mock/list?$delay=1000)
+[https://echo.onface.live/onface/echo/mock/list?$delay=1000](https://echo.onface.live/onface/echo/mock/list?$delay=1000)
 
 
 
@@ -107,6 +107,6 @@ app.use(echoMock({
 }))
 var port = 3000
 app.listen(port, function () {
-    console.log('http://127.0.0.1:' + port)
+    console.log('https://127.0.0.1:' + port)
 })
 ```
